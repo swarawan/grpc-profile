@@ -1,0 +1,7 @@
+version: "3.5"
+services:
+  web:
+    platform: linux/amd64
+    build: .
+    ports:
+      - "60001:60001"
